@@ -1,0 +1,230 @@
+.news__title-div {
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
+
+
+.news__div > .row {
+    height: 30%;
+    margin-bottom: 3%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.news__div > .row > .col-sm {
+    margin: 0% 2%;
+}
+
+.news__card > .row {
+    
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.news__title-div-heading {
+   font-family: "Poppins Bold";
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #252526;
+    margin: 0;
+}
+
+.news__title-div-text {
+    padding: 0% 23.3%;
+    font-family: "Poppins Regular";
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: center;
+    color: rgba(33, 56, 66, 0.6);
+}
+
+.news__card {
+    width: auto;
+    box-shadow: 0 0px 5px 0 #d4d4d4;
+    border-radius: 13px;
+
+}
+
+.news__image-div {
+    display: none;
+}
+
+.news__image-div ~ .col-xs {
+    width: 100% !important;
+    padding: 5%;
+}
+
+.news__content {
+    height: 17vh;
+    overflow: hidden;
+}
+
+.news__link {
+    font-family: "Poppins Bold";
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: 1px;
+    margin-right: auto;
+    min-width: 100%;
+    color: #4d8c52 !important;
+    text-decoration: underline !important;
+}
+
+.news__title {
+     font-family: "Poppins Bold";
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    margin-bottom: 2%;
+}
+
+
+
+.news__text {
+    font-family: "Poppins Regular";
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.6);
+    letter-spacing: normal;
+    text-align: justify;
+
+}
+
+
+
+
+
+.news__image {
+    width: 100%;
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+
+.news__pagination {
+    color: rgba(0,0,0,0.6);
+    position: relative;
+    width: 100%;
+    height: 20px;
+    margin-bottom: 3%;
+}
+
+
+.news__pagination-inner {
+    position: absolute;
+    display: inline-flex;
+    justify-content: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.news__pagination-bullet {
+    margin: 0% 10%;
+    font-family: "Poppins SemiBold";
+    font-weight: bold;
+    cursor: pointer !important;
+}
+
+.news__pagination-bullet.active {
+    color: #4d8c52;
+    font-family: "Poppins Bold";
+}
+
+/* .news__swiper-pagination .swiper-pagination-bullet {
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    background: #062744;
+    opacity: 0.2;
+    transition: all .3s;
+} */
+
+.news__swiper-pagination .swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #4d8c52;
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .news__title-div{
+        margin-top: 3%;
+    }
+    .news__title-div-heading {
+        font-size: 18px;
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .news__title-div-text {
+        font-size: 12px;
+        width: 90%;
+        padding: 0%;
+         margin-right: auto;
+        margin-left: auto;
+    }
+    .news__link,
+    .news__text {
+        font-size: 12px;
+    }
+    .news__title{
+        font-size: 12px;
+        margin-bottom: 0%;
+    }
+    .news__pagination-bullet {
+    margin: 0% 5%;
+}
+}
+
+@media screen and (max-width: 576px) {
+    .news__swiper-slide {
+        width: 60% !important;
+        margin: 0% 20% 0% 20%;
+    }
+
+    .news__empty-cell {
+        display: none;
+    }
+
+    .news__pagination-bullet {
+    margin: 0% 10%;
+}
+
+    .news__div > .row > .col-sm {
+            padding-bottom: 2%;
+    }
+
+    .news__content {
+        margin: 7% 2%;
+    }
+
+    .news__title-div {
+        margin-bottom: 7%;
+    }
+
+    .news-swiper .swiper-wrapper {
+        margin-bottom: 7%;
+    }
+
+   
+}
