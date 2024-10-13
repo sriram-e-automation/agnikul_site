@@ -80,7 +80,8 @@ function NavbarComponent() {
             Careers
           </NavLink>
         </div>
-        <div id="navButtonDiv" style={{width:"14%"}} className="column-lg">
+        
+        <div className="column-ug">
           <a href="https://shop.agnikul.in/" target="_blank">
             <button className="nav-itemc nav-buttond">
               {" "}

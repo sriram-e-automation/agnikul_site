@@ -95,7 +95,11 @@ body {
 }
 
 .column-lg {
-  width: 17%;
+  width: 15%;
+  text-align: left;
+}
+.column-ug {
+  width: 13%;
   text-align: left;
 }
 
@@ -202,6 +206,10 @@ body {
     width: 100%;
     font-size: 12px;
   }
+  .column-ug {
+    width: 100%;
+    font-size: 12px;
+  }
   .nav-brandc {
     margin-left: 10%;
     width: 80%;
@@ -232,6 +240,13 @@ body {
     font-size: 15px;
   }
   .topnav.responsive .nav-buttonc {
+    margin-top: 2%;
+    padding: 2%;
+    font-size: 15px;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .nav-buttond {
     margin-top: 2%;
     padding: 2%;
     font-size: 15px;

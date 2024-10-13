@@ -7,6 +7,8 @@ import navBar from "./js/common";
 import Init from "./js/tech";
 
 import log from "./images/logo.png";
+import shopIcon from "./images/products/shop.svg";
+
 
 import techimage from "./images/tech/tech-placeholder.jpg";
 
@@ -308,6 +310,15 @@ class Tech extends Component {
                 Careers
             </Link>
             </div>
+            <div id="navButtonDiv" style={{width:"14%"}} className="column-lg">
+          <a href="https://shop.agnikul.in/" target="_blank">
+            <button className="nav-itemc nav-buttond">
+              {" "}
+              <img src={shopIcon} alt="" style={{height:"23px", padding:"0px 5px 5px 0px"}}/>
+              COSMOS STORE
+            </button>
+          </a>
+        </div>
             <div id="navButtonDiv" className="column-lg">
               <Link to="/book">
                 <button className="nav-itemc nav-buttonc">BOOK A LAUNCH</button>

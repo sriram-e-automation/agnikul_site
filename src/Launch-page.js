@@ -5,6 +5,7 @@ import Init from "./js/launch";
 import log from "./images/logo.png";
 import spaceshipWhite from "./images/form-icons/spaceship-white.png";
 import { Link } from "react-router-dom";
+import shopIcon from "./images/products/shop.svg";
 
 import blank from "./images/launch/blank.png";
 import AsiaPacific from "./images/launch/Asiapacific.png";
@@ -56,7 +57,7 @@ class Launch extends Component {
             </div>
             <div className="column">
               <Link to="/agnibaan" className="nav-itemc nav-linkc">
-                Products
+                SorTeD
               </Link>
             </div>
             {/* <div className="column-md">
@@ -78,6 +79,23 @@ class Launch extends Component {
               <Link to="/career" className="nav-itemc nav-linkc">
                 Careers
               </Link>
+            </div>
+            <div
+              id="navButtonDiv"
+              style={{ width: "14%" }}
+              className="column-lg"
+            >
+              <a href="https://shop.agnikul.in/" target="_blank">
+                <button className="nav-itemc nav-buttond">
+                  {" "}
+                  <img
+                    src={shopIcon}
+                    alt=""
+                    style={{ height: "23px", padding: "0px 5px 5px 0px" }}
+                  />
+                  COSMOS STORE
+                </button>
+              </a>
             </div>
             <div id="navButtonDiv" className="column-lg">
               <Link to="/book">
@@ -497,17 +515,17 @@ class Launch extends Component {
                     Terms, Conditions and Privacy Policy
                   </p>
                   <div className="footer-social-logos">
-                     <a
+                    <a
                       href="https://twitter.com/@agnikulcosmos"
                       target="_blank"
                     >
                       <i className="fa fa-twitter" aria-hidden="true"></i>
                     </a>
-                    <a
-                      href="https://instagram.com/agnikul/"
-                      target="_blank"
-                    >
-                      <i className="fa fa-lg fa-instagram" aria-hidden="true"></i>
+                    <a href="https://instagram.com/agnikul/" target="_blank">
+                      <i
+                        className="fa fa-lg fa-instagram"
+                        aria-hidden="true"
+                      ></i>
                     </a>
                     <a
                       href="https://www.linkedin.com/company/agnikul-cosmos/"
