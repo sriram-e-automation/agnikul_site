@@ -1,0 +1,102 @@
+.career__form {
+    padding: 2% 0% 5%;
+}
+
+.career__section {
+    padding: 1% 0%;
+}
+
+.career__job {
+    font-family: "Poppins Bold";
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.76;
+    letter-spacing: normal;
+    text-align: center;
+    color: #252526;
+    margin-bottom: 5%;
+}
+
+.career__description {
+    font-family: "Poppins Regular";
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    color: rgba(33, 56, 66, 0.8);
+    display: none;
+}
+
+.career__description.visible {
+    display: block;
+}
+
+.career__section-head {
+    font-family: "Poppins Bold";
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.76;
+    letter-spacing: normal;
+    text-align: center;
+    color: #252526;
+}
+
+.career__section-text {
+    font-family: "Poppins Regular";
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: center;
+    color: rgba(33, 56, 66, 0.6);
+    margin-bottom: 5%;
+}
+
+.career__head {
+    font-family: "Poppins Medium";
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 1.82px;
+    color: #4d8c52;
+    margin-bottom: 0.5%;
+    text-align: justify;
+}
+
+.career__text {
+    font-family: "Poppins Light";
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: rgba(33, 56, 66);
+    text-align: justify;
+}
+
+
+.career__mail {
+    color: #4d8c52;
+    text-decoration: underline !important;
+}
+
+.career__mail:hover {
+    color: #4d8c52 !important;
+}
+
+@media screen and (max-width: 768px) {
+    .career__form {
+        padding: 3% 0%;
+    }
+}
