@@ -5,7 +5,8 @@ import Init from "./js/news";
 import log from "./images/logo.png";
 import shop from "./images/products/shopWhite.svg";
 import youtube from "./images/products/youtube.png";
-import "swiper/css";
+import "swiper/css/swiper.min.css";
+// import "swiper/css";
 import newsHolder from "./images/news/news-placeholder.jpg";
 import NavBarComponent from "./navbar";
 

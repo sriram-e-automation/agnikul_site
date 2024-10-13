@@ -1,6 +1,8 @@
 import React from "react";
 import "./css/team.css";
-import "swiper/css";
+// import "swiper/css";
+import "swiper/css/swiper.min.css";
+
 import log from "./images/logo.png";
 import Init from "./js/team";
 import navBar from "./js/common";

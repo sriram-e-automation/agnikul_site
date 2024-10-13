@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import "./css/about.css";
-import "swiper/css";
-
+// import "swiper/css";
+import "swiper/css/swiper.min.css";
 import Init from "./js/about";
 import shop from './images/products/shopWhite.svg'
 import youtube from "./images/products/youtube.png";
